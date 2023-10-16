@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14F Exercise</title>
+    <style>
+      body
+      {
+        height: 3000px;
+      }
+      .channel-pictures
+      {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(61, 61, 61);
+      }
+      .immg
+      {
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 10px;
+        width: 50px;
+        border-radius: 25px;
+      }
+      .info-channels
+      {
+        position: fixed;
+        width: 150px;
+        left: 75px;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(100, 100, 100);
+        display: flex;
+        flex-direction: column;
+      }
+      .title
+      {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-left: 10px;
+      }
+      .info
+      {
+        color: white;
+        font-family: arial;
+      }
+      .plus
+      {
+        font-family: arial;
+        color: rgb(196, 196, 196);
+      }
+      .details
+      {
+        margin-top: 10px;
+        color: rgb(196, 196, 196);
+        font-family: arial;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left-section">
+      <div class="channel-pictures">
+        <img class="immg" src="channel-1.jpeg">
+        <img class="immg" src="channel-1.jpeg">
+        <img class="immg" src="channel-1.jpeg">
+      </div>
+      <div class="info-channels">
+        <div class="title">
+          <div class="info">
+            INFO
+          </div>
+          <div class="plus">
+            +
+          </div>
+        </div>
+        <div class="details">
+          # new-videos
+        </div>
+        <div class="details">
+          # updates
+        </div>
+        <div class="details">
+          # faq
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+.stock
+{
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  object-position: center;
+}

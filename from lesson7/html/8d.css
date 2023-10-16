@@ -1,0 +1,64 @@
+.first-name
+{
+  font-size: 16px;
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-color: rgb(196, 193, 193);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  width: 130px;
+  margin-bottom: 6px;
+  margin-right: 5px;
+}
+.second-name
+{
+  font-size: 16px;
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-color: rgb(196, 193, 193);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  width: 130px;
+  margin-bottom: 6px;
+}
+.email
+{
+  font-size: 16px;
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-color: rgb(196, 193, 193);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  width: 280px;
+  display: block;
+  margin-bottom: 12px;
+}
+button
+{
+  width: 292px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(17, 153, 243);
+  color: white;
+  border-color: rgb(17, 153, 243);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+button:hover
+{
+  background-color: white;
+  color: rgb(17, 153, 243);
+}
+button:active
+{
+  background-color: black;
+}

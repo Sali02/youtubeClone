@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>15E Exercise</title>
+    <style>
+      body
+      {
+        height: 3000px;
+      }
+      .container
+      {
+        width: 300px;
+        position: relative;
+      }
+      .shirt
+      {
+        max-width: 100%;
+      }
+      .rabatt
+      {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        background-color: black;
+        color: white;
+      }
+      .add
+      {
+        background-color: white;
+        opacity: 0.7;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .add-button
+      {
+        font-family: arial;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        background-color: white;
+        font-weight: bold;
+        border-style: solid;
+        cursor: pointer;
+        transition: opacity 0.20s;
+      }
+      .add-button:hover
+      {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="shirt" src="shirt.jpg">
+      <div class="rabatt">
+        20% OFF
+      </div>
+      <div class="add">
+        <button class="add-button">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

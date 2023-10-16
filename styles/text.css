@@ -1,0 +1,58 @@
+p
+{
+ font-family: roboto;
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+.video-title
+ {
+   font-weight: bold;
+   font-size: 18px;
+   width: 300px;
+   line-height: 24px;
+   margin-bottom: 5px;
+ }
+
+ .video-stats
+ { 
+   font-size: 14px;
+   color: #606060;
+   margin-top: 5px;
+   margin-bottom: 20px;
+ }
+ 
+ .video-author
+ {
+   color: #606060;
+   font-size: 14px;
+   margin-bottom: 20px;
+ }
+
+ .description
+ {  
+   font-size: 14px;
+   color: #606060;
+   width: 285px;
+   line-height: 22px;
+   margin-bottom: 100px;
+ }
+
+ .app-store
+ {
+   margin-bottom: 50px;
+   font-size: 14px;
+   background-color: rgb(227, 65, 64);
+   color: white;
+   text-align: center;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   padding-left: 16px;
+   padding-right: 16px;
+ }
+
+ .shop-element:hover
+ {
+   text-decoration: underline;
+   cursor: pointer;
+ }

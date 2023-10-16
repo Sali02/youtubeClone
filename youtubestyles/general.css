@@ -1,0 +1,48 @@
+p
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+body
+{
+  font-family: roboto, arial;
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(247, 245, 245);
+  padding-bottom: 25px;
+}
+
+@media (max-width: 1200px)
+{
+  body
+  {
+    font-family: roboto, arial;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(247, 245, 245);
+  }
+}
+
+@media (min-width: 1200.1px)
+{
+  body
+  {
+    font-family: roboto, arial;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 330px;
+    padding-right: 24px;
+    background-color: rgb(247, 245, 245);
+  }
+}
